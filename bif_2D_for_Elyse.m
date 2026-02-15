@@ -12,10 +12,6 @@ lambda_F = 0.2;
 lambda_B = 0.3;
 lambda_N = 0.3;
 
-%c1 = linspace(16683400,16683600,100);   % you will likely use different parameter ranges
-%c2 = linspace(16683400,16683600,100);  
-%EP(abs(EP)<1e-6) = nan;  % remove all parts close to zero -- just in case!
-
 % Change to our models
 c1 = linspace(0,10,100);   % you will likely use different parameter ranges
 c2 = linspace(0,10,100);    % you will likely use different parameter ranges
@@ -54,3 +50,4 @@ set(gca,'FontSize',25)
 % Set 3D view
 view(3);
 set(gca,'FontSize',16)
+
